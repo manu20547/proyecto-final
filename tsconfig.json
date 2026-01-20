@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    // Versión de JavaScript a la que compilar
+    "target": "ES6",
+    // Sistema de módulos
+    "module": "CommonJS",
+    // Directorio donde van los archivos compilados
+    "outDir": "dist",
+    // Directorio donde están los archivos TypeScript
+    "rootDir": "src",
+    // Activa todas las verificaciones de tipo estrictas
+    "strict": true,
+    // Permite importar módulos CommonJS como ES6
+    "esModuleInterop": true,
+    // Fuerza mayúsculas consistentes en importes
+    "forceConsistentCasingInFileNames": true,
+    // Salta la verificación de tipos en librerías
+    "skipLibCheck": true
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "libros": [
+    {
+      "id": 1,
+      "titulo": "Cien años de soledad",
+      "autor": "Gabriel García Márquez",
+      "año": 1967,
+      "disponible": true
+    },
+    {
+      "id": 2,
+      "titulo": "Don Quijote de la Mancha",
+      "autor": "Miguel de Cervantes",
+      "año": 1605,
+      "disponible": true
+    },
+    {
+      "id": 3,
+      "titulo": "El Quijote",
+      "autor": "Miguel de Cervantes",
+      "año": 1605,
+      "disponible": true
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Ana Pérez"
+    },
+    {
+      "id": 2,
+      "nombre": "Carlos López"
+    },
+    {
+      "id": 3,
+      "nombre": "María García"
+    }
+  ],
+  "prestamos": [
+    {
+      "id": 1,
+      "libroId": 1,
+      "usuarioId": 1,
+      "fechaPrestamo": "2026-01-19T17:52:23.075Z",
+      "fechaDevolucion": "2026-01-19T17:52:23.097Z"
+    },
+    {
+      "id": 2,
+      "libroId": 1,
+      "usuarioId": 1,
+      "fechaPrestamo": "2026-01-19T17:53:22.321Z",
+      "fechaDevolucion": "2026-01-19T17:53:22.338Z"
+    },
+    {
+      "id": 3,
+      "libroId": 1,
+      "usuarioId": 1,
+      "fechaPrestamo": "2026-01-19T17:53:29.887Z",
+      "fechaDevolucion": "2026-01-19T17:53:29.904Z"
+    },
+    {
+      "id": 4,
+      "libroId": 1,
+      "usuarioId": 1,
+      "fechaPrestamo": "2026-01-19T17:53:35.222Z",
+      "fechaDevolucion": "2026-01-19T17:53:35.243Z"
+    },
+    {
+      "id": 5,
+      "libroId": 1,
+      "usuarioId": 1,
+      "fechaPrestamo": "2026-01-19T17:54:50.482Z",
+      "fechaDevolucion": "2026-01-19T17:54:50.500Z"
+    }
+  ],
+  "nextIds": {
+    "libro": 4,
+    "usuario": 4,
+    "prestamo": 6
+  }
+}
